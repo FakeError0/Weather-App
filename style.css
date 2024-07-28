@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather Sans", sans-serif;
+}
+body{
+    overflow: hidden;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /*Fallback color*/
+    background-color: rgba(0,0,0,0.4); /*Black w/ opacity*/
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #df0909;
+    color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 10%;
+    width: 100%;
+    border: 2px solid black;
+    color: white;
+}
+.navbar{
+    /* background-color: #15719f; */
+    justify-content: space-between;
+}
+
+.logo > img{
+    height: 10vh;
+    width: 6vw;
+    cursor: pointer;
+}
+
+.search > input{
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    /* padding: 1rem; */
+    font-size: 1rem;
+    margin: 1rem;
+    outline: none;
+    font-weight: 500;
+}
+.search > input:focus::placeholder{
+    color: transparent;
+}
+
+.display-weather{
+    height: 50vh;
+    width: 60vw;
+    margin: 1rem 0 0 2rem;
+    overflow: hidden;
+   border-radius: 8px;
+    
+}
+.cityname{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.weather-info{
+    /* height: 100%; */
+    width: 30vw;
+    padding: 1rem;
+}
+.weather-info > img{
+
+    height: 15vh;
+    width: 10vw;
+    padding: 2rem 0;
+
+}
+
+.time{
+    width: max-content;
+    position: relative;
+    left: 16rem;
+    top: 2.5rem;
+    font-size: 1.5rem;
+}
+.weather-description{
+    margin: 0 3rem;
+}
+.dayweather{
+    height: 25vh;
+    width: 60vw;
+    margin: 1rem 2rem;
+    /* overflow: hidden; */
+}
+
+.forecast-title{
+    width: max-content;
+    margin:.3rem;
+    
+}
+
+.day-data{
+    height: 15vh;
+    width: 5vw;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.solid-border{
+    height: 15vh;
+    width: .2rem;
+    background-color: #15719f;
+    margin: .5rem 0;
+}
+
+.week{
+    justify-content: space-between;
+}
+.week-info{
+    display: flex;
+    justify-content: space-around;
+}
+.section-2{
+    position: relative;
+    left: 5rem;
+    width: 20vw;
+}
+
+.v-solid-border{
+    height: .2rem;
+    width: 15vw;
+    background-color: #15719f;
+    margin: auto;
+
+}
+
+.week-data{
+    display: flex;
+    /* justify-content:space-between; */
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    /* overflow: hidden; */
+}
+
+/* .weekweather{
+    height: 100%;
+    overflow: hidden;
+} */

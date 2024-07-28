@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.border{
+    border: 3.5px solid #666b6d;
+}
+.h-full{
+    height: 80vh;
+}
