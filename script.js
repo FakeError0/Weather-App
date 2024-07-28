@@ -5,15 +5,10 @@ let inputfield = document.querySelector('.input')
 // Get the modal
 let modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
 
-// Get the <span> element that closes the modal
 let span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
-// btn.onclick = function() {
-//   modal.style.display = "block";
-// }
+
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
@@ -32,7 +27,6 @@ window.onload = function() {
 console.log(inputfield)
 let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
 
-// let date = new Date()
 
 async function addWeatherInfoToContainer(country){
    
